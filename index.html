@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; example</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="demo-styles.css">
+    
+    <!-- The following libraries and polyfills are recommended to maximize browser support -->
+    <!-- NOTE: you must adjust the paths as appropriate for your project -->
+    
+    <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://cdn.glitch.global/6b48ffd8-5f31-492b-b4f4-6640bf11fe2c/ultrasound.glb?v=1714058705281" defer></script>
+
+  </head> 
+<body>
+  <div id="card">
+    <!-- All you need to put beautiful, interactive 3D content on your site: <button onclick="takeScreenshot()">Take Picture</button> -->
+    <model-viewer id="viewer" camera-controls touch-action="pan-y" autoplay ar ar-modes="webxr scene-viewer" scale="0.2 0.2 0.2" shadow-intensity="1" src="https://cdn.glitch.me/bac5146a-22de-4432-97d7-974077151977/cabbage.glb?v=1743418008659" alt="An animated "><div>
+
+      
+      
+
+  
+    </div></model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>Cabbage</h1>
+        <span>By <a href="https://machenn.com/" target="_blank">Machenn</a></span>
+      </span>
+      
+    </section>
+    
+    
+  </div>
+  
+  
+  <footer>
+    
+  </footer>
+  
+  
+  <!-- 💁 Include both scripts below to support all browsers! -->
+
+  <!-- Loads <model-viewer> for modern browsers: -->
+  <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+  
+ 
+ 
+  
+
+</body>
+</html>
